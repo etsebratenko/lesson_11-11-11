@@ -1,0 +1,33 @@
+.navbar-bottom {
+  background-color: #fff;
+
+  &__list {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  &__item {
+    list-style-type: none;
+    line-height: 19px;
+  }
+
+
+  &__link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 8px;
+
+    &:hover {
+      color: #f13c6e;
+    }
+
+  }
+
+}
+

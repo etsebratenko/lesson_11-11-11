@@ -1,0 +1,60 @@
+.sale {
+  background-color: #f13c6e;
+}
+
+.container-sale {
+  display: flex;
+  align-items: center;
+}
+
+.group-sale {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  &__title {
+    width: 308px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+  }
+
+  &__description {
+    width: 308px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  &__button {
+    width: 170px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    background: #f13c6e;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 12px 26px;
+  
+    &:hover {
+      cursor: pointer;
+      background-color: #f0b4c51d;
+    }
+  }
+}
+.sale-image {
+  width: 864px;
+  height: 604px;
+}

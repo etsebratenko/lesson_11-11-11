@@ -1,0 +1,49 @@
+
+.container-categories {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.footer-block {
+  gap: 30px;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 255px;
+
+
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    width: 99px;
+  }
+
+  &__line {
+    border: 1px solid #efefef;
+    width: 255px;
+  }
+
+  &__list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    }
+  &__item {
+    list-style-type: none;
+  }
+  &__link {
+    text-decoration: none;
+    color: #828282;
+
+      &:hover {
+        color: #f13c6e;
+      }
+  }
+}

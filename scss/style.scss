@@ -1,0 +1,30 @@
+@use 'header/navbar-top';
+@use 'header/navbar-content';
+@use 'header/header-line';
+@use 'header/navbar-bottom';
+@use 'main/sale';
+@use 'main/container-main';
+@use 'main/card';
+@use 'main/block1';
+@use 'main/block2';
+@use 'main/impuls';
+@use 'footer/footer';
+@use 'footer/container-categories';
+@use 'footer/footer-line';
+@use 'footer/navbar-networks';
+@use 'footer/copyright';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}

@@ -1,0 +1,59 @@
+.block2 {
+  width: 540px;
+  background: #F13C6E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 40px;
+}
+
+.car {
+  max-width: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+
+  &__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  &__button {
+    text-decoration: none;
+    background: #f13c6e;
+    border-radius: 30px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 9px 21px;
+    border: 2px solid #fff;
+
+    &:hover {
+      cursor: pointer;
+      background: #f7e2e88f;
+    }
+  }
+}
+
+.image2 {
+  &__car {
+    width: 180px;
+    height: 100px;
+  }
+}
